@@ -76,6 +76,7 @@
 
     div#formulario > p{
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 }
 
@@ -105,54 +106,6 @@
 
     div#formulario > p {
         font-size: 1.2em;
+        margin: 20px 0px;
     }
 }
-
-/*@media screen and (max-height: 480px) {
-    body {
-        height: 500px;
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
-    }
-    
-    section#login {
-        width: 90vw;
-        height: 30vw;
-        margin-top: 80px;
-        margin-bottom: 20px;
-    }
-
-    section#login > div#imagem {
-        float: left;
-        width: 35%;
-        height: 100%;
-    }
-
-    section#login > div#formulario {
-        float: right;
-        width: 65%;
-    }
-}
-
-@media screen and (max-height: 280px) {
-    body {
-        height: 300px;
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
-    }
-
-    section#login {
-        margin-top: 10px;
-        width: 90vw;
-        height: 270px;
-    }
-
-    section#login > div#imagem {
-        float: left;
-        width: 35%;
-        height: 100%;
-    }
-
-    section#login > div#formulario {
-        float: right;
-        width: 65%;
-    }
-}*/
