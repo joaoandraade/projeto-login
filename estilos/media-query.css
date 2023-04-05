@@ -67,6 +67,7 @@
     }
     section#login {
         width: 70vw;
+        height: 70vw;
     }
 
     section#login > div#imagem {
@@ -78,5 +79,49 @@
     section#login > div#formulario {
         float: right;
         width: 50%;
+    }
+}
+
+@media screen and (max-height: 500px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login {
+        width: 90vw;
+        height: 40vw;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 65%;
+    }
+}
+
+@media screen and (max-height: 280px) {
+    body {
+        height: 300px;
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login {
+        margin-top: 10px;
+        width: 90vw;
+        height: 270px;
+    }
+
+    section#login > div#imagem {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 65%;
     }
 }
