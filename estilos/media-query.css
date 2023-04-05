@@ -25,6 +25,7 @@
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+
     section#login {
         width: 80vw;
     }
@@ -45,8 +46,9 @@
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+
     section#login {
-        width: 70vw;
+        width: 85vw;
     }
 
     section#login > div#imagem {
@@ -65,9 +67,9 @@
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+
     section#login {
-        width: 70vw;
-        height: 70vh;
+        width: 75vw;
     }
 
     section#login > div#imagem {
@@ -82,13 +84,17 @@
     }
 }
 
-@media screen and (max-height: 500px) {
+/*@media screen and (max-height: 480px) {
     body {
+        height: 500px;
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+    
     section#login {
         width: 90vw;
-        height: 40vw;
+        height: 30vw;
+        margin-top: 80px;
+        margin-bottom: 20px;
     }
 
     section#login > div#imagem {
@@ -108,6 +114,7 @@
         height: 300px;
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
+
     section#login {
         margin-top: 10px;
         width: 90vw;
@@ -124,4 +131,4 @@
         float: right;
         width: 65%;
     }
-}
+}*/
